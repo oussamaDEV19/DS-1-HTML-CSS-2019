@@ -1,0 +1,150 @@
+body {
+  margin: 2% 2%;
+}
+.header {
+  background-image: url(atis.jpg);
+  height: 300px;
+  background-repeat: no-repeat;
+  letter-spacing: 2px;
+  background-size: cover;
+}
+.header h1 {
+  padding-top: 40px;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 5px 2px black;
+}
+.header h2 {
+  color: white;
+  text-align: center;
+  text-shadow: 3px 5px 2px black;
+}
+.sections {
+  background-color: rgba(0, 128, 255, 0.878);
+  display: flex;
+  padding: 10px;
+  padding-left: 20px;
+}
+.section a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+
+  padding: 10px;
+  padding-right: 40px;
+}
+.section a:hover {
+  background-color: yellow;
+  color: darkblue;
+}
+.middle {
+  border: 1px solid rgba(128, 128, 128, 0.422);
+}
+.content {
+  padding: 10px;
+  border: 1px solid grey;
+  display: flex;
+  margin: 10px;
+  box-shadow: 5px 7px 7px 5px grey;
+}
+.left {
+  width: 80%;
+}
+.head {
+  background-color: rgba(0, 128, 255, 0.878);
+  border-bottom: 2px blue dashed;
+  height: 50px;
+}
+.head h3 {
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+  padding: 8px;
+  margin-top: 0px;
+  text-shadow: 2px 3px 2px black;
+}
+.left p {
+  padding: 10px;
+  font-size: 23px;
+}
+.welcom-section {
+  border: 1px solid black;
+}
+.left .images {
+  display: flex;
+  padding-left: 2px;
+}
+.left .image {
+  width: 19.5%;
+  margin-right: 4px;
+}
+.left .images .image {
+  border: 1px solid grey;
+}
+.left .images .image img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 2px solid rgba(0, 0, 0, 0.333);
+  padding: 5px;
+  margin: 35px;
+  margin-top: 2px;
+  margin-bottom: 3px;
+  box-shadow: 5px 7px 7px 1px rgba(39, 33, 33, 0.51);
+}
+.left .images .image h3 {
+  text-align: center;
+  font-size: 12px;
+  font-size: 18px;
+}
+.left .images .image h3 a {
+  color: blue;
+}
+.right {
+  padding-left: 10px;
+  width: 20%;
+}
+.right .liste ul li {
+  font-size: 15px;
+  padding-top: 10px;
+}
+.liste {
+  display: flex;
+}
+.liste-right {
+  width: 30%;
+  margin-top: -10px;
+}
+.selection {
+  color: darkblue;
+}
+.liste-left {
+  width: 70%;
+}
+.right .liste ul li span {
+  float: right;
+}
+.right img {
+  width: 100px;
+  height: 80px;
+  padding: 10px;
+}
+.past {
+  display: flex;
+}
+.right-atis {
+  width: 50%;
+}
+.left-atis {
+  width: 50%;
+}
+ul {
+  list-style-type: square;
+  margin-top: 0px;
+}
+.footer {
+  text-align: center;
+  background-color: rgba(0, 128, 255, 0.878);
+  color: white;
+  padding: 1px;
+}
